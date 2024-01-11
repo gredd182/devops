@@ -25,3 +25,68 @@ sudo apt-get update
 sudo apt-get install jenkins
 java --version
 sudo apt-get install jenkins
+sudo apt update
+sudo apt install fontconfig openjdk-17-jre
+java -version
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+ls
+cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+git init
+git --version
+git config --global 
+ssh-keygen -t rsa -b 4096 -C "yaswanthgajjala9347.com"
+cat ~/.ssh/id_rsa.pub
+git clone https://github.com/gredd182/devops.git
+git branch
+git init
+git branch develop
+git branch master
+git branch 
+touch test123
+ls
+git branch 
+git add .
+git status
+git add test123
+git commit -m "jenkins"
+git config --global --edit
+git commit -m "jenkins"
+git push
+sudo git remote add https://github.com/gredd182/devops.git
+git branch
+git push master
+git remote -v
+sudo git remote add origin https://github.com/gredd182/devops.git
+git branch develop
+git bbrangti
+git branch
+git checkout develop 
+git push
+git pull
+git pull remote develop
+git push develop
+git branch
+git ush
+git push
+git push --set-upstream origin develop
+git push --help
+git remote -v
+git status
+git log
+git push origin
+git pull origin
+git pull origin master
+git checkout master
+git pull origin master
+git push origin
+git push --set-upstream origin master
+git pull origin develop
+git push --set-upstream origin master
+git push
